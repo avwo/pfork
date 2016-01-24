@@ -9,7 +9,8 @@
   "homepage": "https://github.com/avwo/pfork",
   "keywords": [
     "child_process",
-    "fork"
+    "fork",
+    "process"
   ],
   "registry": "http://registry.npmjs.org/pfork",
   "repository": {

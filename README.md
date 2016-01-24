@@ -8,8 +8,8 @@
 # Usage
 	var p = require('pfork');
 	var options = {
-		script: '/User/xxx/test/script.js',
-		value: '/User/xxx/test/server.js',
+		script: '/User/xxx/test/script.js', //必填
+		value: '/User/xxx/test/server.js',  //可选
 		//其它字段
 	};
 	p.fork(options, function(err, data) {
@@ -23,3 +23,10 @@
 		//do sth
 		callback(err, data);
 	}；
+	
+kill process：
+
+	p.kill({
+		script: '/User/xxx/test/script.js',
+		value: '/User/xxx/test/server.js'
+	});
