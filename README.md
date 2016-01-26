@@ -12,8 +12,10 @@
 		value: '/User/xxx/test/server.js',  //可选
 		//其它字段
 	};
-	p.fork(options, function(err, data) {
+	p.fork(options, function(err, data, child) {
 		//启动结束
+		//child.on('data', function(data) {});
+		//child.sendData(data);
 	});
 	
 /User/xxx/test/script.js
@@ -21,6 +23,7 @@
 	//options与fork的options字段一致
 	module.exports = function(options, callback) {
 		//do sth
+		// process.sendData(data);
 		callback(err, data);
 	}；
 	
