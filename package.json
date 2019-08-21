@@ -12,6 +12,10 @@
     "fork",
     "process"
   ],
+  "scripts": {
+    "lint": "eslint ./lib index.js",
+    "lintfix": "eslint --fix ./lib index.js"
+  },
   "registry": "http://registry.npmjs.org/pfork",
   "repository": {
     "type": "git",
@@ -22,5 +26,8 @@
   },
   "dependencies": {
     "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1"
   }
 }
