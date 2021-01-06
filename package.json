@@ -1,7 +1,7 @@
 {
   "name": "pfork",
   "description": "fork process",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "lib/index.js",
   "author": "avenwu <avenwu@vip.qq.com>",
   "contributors": [],
