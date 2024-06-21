@@ -1,7 +1,7 @@
 {
   "name": "pfork",
   "description": "fork process",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "main": "lib/index.js",
   "author": "avenwu <avenwu@vip.qq.com>",
   "contributors": [],
@@ -22,10 +22,7 @@
     "url": "https://github.com/avwo/pfork.git"
   },
   "engines": {
-    "node": ">= 0.10.0"
-  },
-  "dependencies": {
-    "q": "^1.4.1"
+    "node": ">= 0.12.0"
   },
   "devDependencies": {
     "eslint": "^2.13.1"
